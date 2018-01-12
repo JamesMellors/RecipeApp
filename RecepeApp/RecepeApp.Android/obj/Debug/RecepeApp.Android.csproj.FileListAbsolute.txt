@@ -1,0 +1,64 @@
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.pdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\com.companyname.RecepeApp.apk
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\com.companyname.RecepeApp-Signed.apk
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.csproj.CoreCompileInputs.cache
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.App.xaml.g.cs
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.MainPage.xaml.g.cs
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.EditRecipePage.xaml.g.cs
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.dll
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.pdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\bin\com.companyname.RecepeApp.apk
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable\icon.png
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-hdpi\icon.png
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-xhdpi\icon.png
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\layout\tabbar.xml
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\layout\toolbar.xml
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\values\styles.xml
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\R.cs.flag
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\uploadflags.txt
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\RecepeApp.Android.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.csprojResolveAssemblyReference.cache
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeList.xaml.g.cs
+c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
+bin\Debug\FormsViewGroup.dll.mdb
+bin\Debug\Xamarin.Forms.Core.dll.mdb
+bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\RecepeApp.Android.dll.mdb
+obj\Debug\linksrc\FormsViewGroup.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
