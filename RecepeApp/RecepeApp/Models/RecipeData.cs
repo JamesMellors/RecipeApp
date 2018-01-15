@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
@@ -7,15 +8,15 @@ namespace RecepeApp.Models
 {
     public static class RecipeData
     {
-        static List<Recipe> _allRecipes;
-        public static List<Recipe> AllRecipes
+        static ObservableCollection<Recipe> _allRecipes;
+        public static ObservableCollection<Recipe> AllRecipes
         {
             get
             {
 
                 if (_allRecipes == null)
                 {
-                    _allRecipes = new List<Recipe>
+                    _allRecipes = new ObservableCollection<Recipe>
                     {
                         new Recipe {
                             RecipeName="Eggs Benedict",
@@ -91,8 +92,8 @@ namespace RecepeApp.Models
             }
         }
 
-        static List<ListViewGrouping<Recipe>> _allRecipesGrouped;
-        public static List<ListViewGrouping<Recipe>> AllRecipesGrouped
+        static ObservableCollection<ListViewGrouping<Recipe>> _allRecipesGrouped;
+        public static ObservableCollection<ListViewGrouping<Recipe>> AllRecipesGrouped
         {
             get
             {
@@ -107,7 +108,7 @@ namespace RecepeApp.Models
                     var hardGrouping = new ListViewGrouping<Recipe>("Hard", "H");
                     hardGrouping.AddRange(RecipeData.AllRecipes.Where(r => r.Difficulty == Difficulty.Hard));
 
-                    _allRecipesGrouped = new List<ListViewGrouping<Recipe>> {
+                    _allRecipesGrouped = new ObservableCollection<ListViewGrouping<Recipe>> {
                         easyGrouping,
                         mediumGrouping,
                         hardGrouping
@@ -117,5 +118,14 @@ namespace RecepeApp.Models
                 return _allRecipesGrouped;
             }
         }
+
+        public static Recipe SingleRecipe
+        {
+            get
+            {
+                return AllRecipes.ElementAt(0);
+            }
+        }
+
     }
 }

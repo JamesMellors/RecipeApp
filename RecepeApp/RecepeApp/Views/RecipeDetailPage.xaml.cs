@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RecepeApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,15 @@ namespace RecepeApp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class RecipeDetailPage : ContentPage
 	{
-		public RecipeDetailPage ()
+        Recipe _selectedRecipe;
+
+        public RecipeDetailPage (Recipe selectedRecipe)
 		{
 			InitializeComponent ();
+
+            _selectedRecipe = selectedRecipe;
+
+            BindingContext = selectedRecipe;
 		}
 	}
 }

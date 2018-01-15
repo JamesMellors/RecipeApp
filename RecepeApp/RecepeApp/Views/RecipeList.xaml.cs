@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RecepeApp.Models;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -18,9 +19,20 @@ namespace RecepeApp.Views
         {
             InitializeComponent();
 
-           
+            BindingContext = new RecipeListViewModel();
         }
 
-    
+        async void MyListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var recipe = e.SelectedItem as Recipe;
+
+            if (recipe == null)
+                return;
+
+            var detailsPage = new RecipeDetailPage(recipe);
+            await Navigation.PushAsync(detailsPage);
+
+            MyListView.SelectedItem = null;
+        }
     }
 }

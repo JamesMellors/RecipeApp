@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace RecepeApp.Models
@@ -24,4 +25,16 @@ namespace RecepeApp.Models
             ShortName = shortName;
         }
     }
+
+    public static class ObservableCollectionExtensions
+    {
+        public static void AddRange<T>(this ObservableCollection<T> collection, IEnumerable<T> toAdd)
+        {
+            foreach (var item in toAdd)
+            {
+                collection.Add(item);
+            }
+        }
+    }
+
 }

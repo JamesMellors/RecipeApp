@@ -18,7 +18,8 @@
             IsGroupingEnabled="True"
             SeparatorVisibility="None"
             HasUnevenRows="True"
-    ItemTemplate="{StaticResource recipeTemplateSel}"/>
+    ItemTemplate="{StaticResource recipeTemplateSel}"
+              ItemSelected="MyListView_ItemSelected"/>
     </ContentPage.Content>
     <!-- <ListView.GroupHeaderTemplate>
             <DataTemplate>
