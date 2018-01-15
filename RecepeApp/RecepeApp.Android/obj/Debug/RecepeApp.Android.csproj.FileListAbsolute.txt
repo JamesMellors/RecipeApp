@@ -30,7 +30,42 @@ c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\De
 c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.csprojResolveAssemblyReference.cache
 c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeList.xaml.g.cs
-c:\users\surveyme user\source\repos\RecepeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.pdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\com.companyname.RecepeApp.apk
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\com.companyname.RecepeApp-Signed.apk
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.csprojResolveAssemblyReference.cache
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.csproj.CoreCompileInputs.cache
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.App.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.MainPage.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.EditRecipePage.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeList.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeCell.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.dll
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Android.pdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\bin\com.companyname.RecepeApp.apk
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable\icon.png
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\values\styles.xml
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\R.cs.flag
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\uploadflags.txt
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\RecepeApp.Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecommendedRecipeCell.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeDetailPage.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb

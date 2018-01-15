@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace RecepeApp.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RecipeCell : ContentPage
+	public partial class RecipeCell : ViewCell
 	{
-		public RecipeCell ()
+		public RecipeCell()
 		{
 			InitializeComponent ();
 		}

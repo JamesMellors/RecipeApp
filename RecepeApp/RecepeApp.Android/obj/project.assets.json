@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\surveyme user\\source\\repos\\RecepeApp\\RecepeApp\\RecepeApp.Android\\RecepeApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\SurveyMe User\\Documents\\Recipe\\RecipeApp\\RecepeApp\\RecepeApp.Android\\RecepeApp.Android.csproj",
       "projectName": "RecepeApp.Android",
-      "projectPath": "c:\\users\\surveyme user\\source\\repos\\RecepeApp\\RecepeApp\\RecepeApp.Android\\RecepeApp.Android.csproj",
+      "projectPath": "C:\\Users\\SurveyMe User\\Documents\\Recipe\\RecipeApp\\RecepeApp\\RecepeApp.Android\\RecepeApp.Android.csproj",
       "packagesPath": "C:\\Users\\SurveyMe User\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\surveyme user\\source\\repos\\RecepeApp\\RecepeApp\\RecepeApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\SurveyMe User\\Documents\\Recipe\\RecipeApp\\RecepeApp\\RecepeApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -715,8 +715,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packagesource": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://surveyme.pkgs.visualstudio.com/_packaging/SurveyMeApiModels/nuget/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid80": {

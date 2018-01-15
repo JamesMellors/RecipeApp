@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RecepeApp.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace RecepeApp
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new EditRecipePage());
+			MainPage = new NavigationPage(new RecipeList());
 		}
 
 		protected override void OnStart ()

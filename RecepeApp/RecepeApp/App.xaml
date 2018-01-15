@@ -3,8 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RecepeApp.App">
 	<Application.Resources>
+        <ResourceDictionary>
 
-		<!-- Application resource dictionary -->
+            <Color x:Key="LightPrimaryBackground">#F6F6F6</Color>
+            <Color x:Key="SecondaryText">#757575</Color>
+            
+            <Style x:Key="overallCellContentStyle" TargetType="ContentView">
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource LightPrimaryBackground}"/>
+            </Style>
 
+            <Style x:Key="cellPrepDetailsStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{StaticResource SecondaryText}"/>
+                <Setter Property="Margin" Value="0,5,0,0"/>
+            </Style>
+
+            <Style TargetTpe="Button">
+                <Setter Property="BorderRadius" Value="10"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="BackgroundColor" Value="#4CAF50"/>
+            </Style>
+
+        </ResourceDictionary>		
 	</Application.Resources>
 </Application>

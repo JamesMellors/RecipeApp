@@ -24,6 +24,8 @@ namespace RecepeApp.Models
         public string Directions { get; set;  }
 
         public string ImageName { get; set; }
+
+        public bool isRecommended { get; set; }
     }
 
     public static class Difficulty
