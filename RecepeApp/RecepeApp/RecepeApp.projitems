@@ -21,6 +21,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\ListViewGrouping.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Recipe.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\RecipeData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RecipeListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RecipeDataTemplateSelector.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RecipeToImageValueConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Triggers\RequiredValidationTriggerAction.cs" />

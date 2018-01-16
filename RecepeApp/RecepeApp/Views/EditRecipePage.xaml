@@ -2,6 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RecepeApp.Behaviors"
+             xmlns:iOS="clr-namespace:UIKit;assembly=Xamarin.iOS;targetPlatform=iOS"
+		xmlns:droid="clr-namespace:Android.Widget;assembly=Mono.Android;targetPlatform=Android"
+        xmlns:formsDroid="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Platform.Android;targetPlatform=Android"
+		
               xmlns:local2="clr-namespace:RecepeApp.Triggers"
              x:Class="RecepeApp.EditRecipePage"
              Title="Foodie">
@@ -22,7 +26,7 @@
                                         </DataTrigger>
                                     </Label.Triggers>
                                 </Label>
-                                <Entry x:Name="recipeNameEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="Scrambled Eggs">
+                                <Entry x:Name="recipeNameEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="{Binding RecipeName}">
                                     <Entry.Triggers>
                                         <EventTrigger Event="TextChanged">
                                             <local2:RequiredValidationTriggerAction/>
@@ -45,7 +49,7 @@
                                         </DataTrigger>
                                     </Label.Triggers>
                                 </Label>
-                                <Entry x:Name="prepTimeEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="5 mins">
+                                <Entry x:Name="prepTimeEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="{Binding PreparationTime}">
                                     <Entry.Triggers>
                                         <EventTrigger Event="TextChanged">
                                             <local2:RequiredValidationTriggerAction/>
@@ -68,7 +72,7 @@
                                         </DataTrigger>
                                     </Label.Triggers>
                                 </Label>
-                                <Entry x:Name="cookTimeEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="2 mins">
+                                <Entry x:Name="cookTimeEntry" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="{Binding CookTime}">
                                     <Entry.Triggers>
                                         <EventTrigger Event="TextChanged">
                                             <local2:RequiredValidationTriggerAction/>
@@ -84,7 +88,7 @@
                         <ContentView>
                             <StackLayout Orientation="Horizontal" Margin="20,10,10,10">
                                 <Label Text="Number of Servings" VerticalOptions="Center"/>
-                                <Entry Text="2" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End">
+                                <Entry Text="{Binding NumberOfServings}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End">
                                     <Entry.Behaviors>
                                         <local:NumericEntryBehavior/>
                                     </Entry.Behaviors>
@@ -92,8 +96,21 @@
                             </StackLayout>
                         </ContentView>
                     </ViewCell>
-     
-                    <SwitchCell Text="Make again?" On="True"></SwitchCell>
+
+                    <ViewCell>
+                        <ContentView>
+                            <StackLayout Orientation="Horizontal" Margin="15,10,10,10">
+                                <Label Text="Make Again?" VerticalOptions="Center" />
+                                <iOS:UISwitch On="{Binding WillMakeAgain}" 
+										View.HorizontalOptions="EndAndExpand" View.VerticalOptions="Center" />
+
+                                <droid:Switch x:Arguments="{x:Static formsDroid:Forms.Context}" 
+								    ShowText="true" TextOff="Nope" TextOn="Yup" 
+								    Checked="{Binding WillMakeAgain, Mode=TwoWay, UpdateSourceEventName=CheckedChange}" 
+								    View.HorizontalOptions="EndAndExpand" View.VerticalOptions="Center"/>
+                            </StackLayout>
+                        </ContentView>
+                    </ViewCell>
 
                 </TableSection>
                 
@@ -101,12 +118,12 @@
                     <ViewCell>
                         <ContentView>
                             <StackLayout Orientation="Horizontal" Margin="15,10,10,10">
-                                <Picker HorizontalOptions="FillAndExpand">
+                                <Picker HorizontalOptions="FillAndExpand" x:Name="mealPicker">
                                     <Picker.Items>
-                                        <x:String>Breakfast</x:String>
-                                        <x:String>Lunch</x:String>
-                                        <x:String>Dinner</x:String>
-                                        <x:String>Snack</x:String>
+                                        <x:Static Member="local:MealType.Breakfast" />
+                                        <x:Static Member="local:MealType.Lunch" />
+                                        <x:Static Member="local:MealType.Dinner" />
+                                        <x:Static Member="local:MealType.Snack" />
                                     </Picker.Items>
                                     <Picker.SelectedIndex>0</Picker.SelectedIndex>
                                 </Picker>
@@ -114,18 +131,42 @@
                         </ContentView>
                     </ViewCell> 
                 </TableSection>
-                
+                <TableSection Title="Difficulty">
+                    <ViewCell>
+                        <ContentView>
+                            <StackLayout Orientation="Horizontal" Margin="15,10,10,10">
+                                <Picker HorizontalOptions="FillAndExpand" x:Name="difficultyPicker">
+                                    <Picker.Items>
+                                        <x:Static Member="local:Difficulty.Easy" />
+                                        <x:Static Member="local:Difficulty.Medium" />
+                                        <x:Static Member="local:Difficulty.Hard" />
+                                    </Picker.Items>
+                                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                                </Picker>
+                            </StackLayout>
+                        </ContentView>
+                    </ViewCell>
+                </TableSection>
                 <TableSection Title="Ingredients">
                     <ViewCell>
                         <ContentView HeightRequest="125" Margin="15, 10, 10, 10">
-                    <Editor Text="8 eggs, 1/2 cup milk"/>
+                            <Editor Text="{Binding Ingredients}">
+                                <Editor.Triggers>
+                                    <Trigger TargetType="Editor" Property="IsFocused" Value="True">
+                                        <Setter Property="BackgroundColor" Value="#FFF9C4"></Setter>
+                                    </Trigger>
+                                    <Trigger TargetType="Editor" Property="IsFocused" Value="True">
+                                        <Setter Property="FontAttributes" Value="Bold"></Setter>
+                                    </Trigger>
+                                </Editor.Triggers>
+                            </Editor>
                         </ContentView>
                     </ViewCell>
                 </TableSection>
                 <TableSection Title="Directions">
                     <ViewCell>
                         <ContentView HeightRequest="200" Margin="15, 10, 10, 10">
-                            <Editor Text="Break eggs, mix in milk, etc">
+                            <Editor Text="{Binding Directions}">
                                 <Editor.Triggers>
                                     <Trigger TargetType="Editor" Property="IsFocused" Value="true">
                                         <Setter Property="BackgroundColor" Value="#FFF9C4"></Setter>
@@ -141,4 +182,8 @@
             </TableView.Root>
         </TableView>
     </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="HandleSave_Clicked" />
+        <ToolbarItem Text="Cancel" Clicked="HandleCancel_Clicked" />
+    </ContentPage.ToolbarItems>
 </ContentPage>

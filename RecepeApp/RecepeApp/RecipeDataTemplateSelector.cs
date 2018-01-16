@@ -26,7 +26,7 @@ namespace RecepeApp
             if (recipe == null)
                 return null;
 
-            return recipe.isRecommended ? recommendedTemplate : recipeTemplate;
+            return recipe.IsRecommended ? recommendedTemplate : recipeTemplate;
         }
 
     }

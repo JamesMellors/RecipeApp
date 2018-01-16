@@ -11,7 +11,7 @@
 namespace RecepeApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\surveyme user\\source\\repos\\RecepeApp\\RecepeApp\\RecepeApp\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\SurveyMe User\\Documents\\Recipe\\RecipeApp\\RecepeApp\\RecepeApp\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
