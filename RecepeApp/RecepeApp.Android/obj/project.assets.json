@@ -716,7 +716,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://surveyme.pkgs.visualstudio.com/_packaging/SurveyMeApiModels/nuget/v3/index.json": {}
+        "https://surveyme.pkgs.visualstudio.com/_packaging/SurveyMeApiModels/nuget/v3/index.json": {},
+        "https://www.myget.org/F/imagesharp/api/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid80": {

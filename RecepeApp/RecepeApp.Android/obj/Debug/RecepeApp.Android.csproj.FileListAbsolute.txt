@@ -53,6 +53,8 @@ C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\ob
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\res\values\styles.xml
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\R.cs.flag
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\uploadflags.txt
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecommendedRecipeCell.xaml.g.cs
+C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeDetailPage.xaml.g.cs
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll.mdb
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
@@ -63,8 +65,6 @@ C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\ob
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecommendedRecipeCell.xaml.g.cs
-C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\obj\Debug\RecepeApp.Droid.Views.RecipeDetailPage.xaml.g.cs
 C:\Users\SurveyMe User\Documents\Recipe\RecipeApp\RecepeApp\RecepeApp.Android\bin\Debug\RecepeApp.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb

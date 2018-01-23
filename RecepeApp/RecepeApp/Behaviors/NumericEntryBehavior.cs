@@ -13,6 +13,8 @@ namespace RecepeApp.Behaviors
             bindable.TextChanged += Bindable_TextChanged;
         }
 
+
+
         private void Bindable_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (string.IsNullOrEmpty(e.NewTextValue))

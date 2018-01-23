@@ -19,7 +19,7 @@
                 <Setter Property="Margin" Value="0,5,0,0"/>
             </Style>
 
-            <Style TargetTpe="Button">
+            <Style TargetType="Button">
                 <Setter Property="BorderRadius" Value="10"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="TextColor" Value="#FFFFFF"/>
